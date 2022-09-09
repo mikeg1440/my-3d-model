@@ -34,8 +34,20 @@ html {
   box-shadow: rgba(135, 213, 20, 0.72) 6px 2px 16px 0px, rgba(192, 11, 229, 0.8) -6px -2px 16px 0px;
 }
 
+.main-header {
   font-size: 3.2em;
+  margin-top: 3vw;
   line-height: 1.1;
+  text-align: center;
+  max-width: fit-content;
+  padding: 1vw;
+  border: 2px solid white;
+}
+
+.subheader {
+  font-size: 2em;
+}
+
 }
 
 .app {
