@@ -65,8 +65,17 @@ html {
   white-space: nowrap;
 }
 
+.github-link {
+  margin: auto;
 }
 
+.github-gif:hover {
+  animation: shake 1s ease-in infinite;
+}
+
+.github-gif {
+  width: 180px;
+}
 
 
 @media (prefers-color-scheme: light) {
