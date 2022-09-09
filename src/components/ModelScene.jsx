@@ -7,11 +7,11 @@ import Avatar from './Avatar.jsx';
 export default function ModelScene() {
   return (
     <Canvas 
-      camera={{ position: [6, 4, 15], fov: 15 }}
+        camera={{ position: [0, 4, 15], fov: 15 }}
       style={{
-        backgroundColor: '#2f2f2f',
-        width: '100vw',
-        height: '100vh',
+          backgroundColor: '#242424',
+          width: 'fit-content',
+          height: '300px',
     }}>
 
       <ambientLight intensity={1.25} />  
