@@ -23,7 +23,17 @@ html {
   padding-top: 1rem;
 }
 
-h1 {
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1rem;
+  /* box-shadow: rgb(0, 0, 0) 5px 5px 5px 0px, rgb(0, 0, 0) 4px 4px 15px 0px inset, inset 5px 5px 15px 5px rgba(57,255,29,0); */
+  box-shadow: rgba(135, 213, 20, 0.72) 6px 2px 16px 0px, rgba(192, 11, 229, 0.8) -6px -2px 16px 0px;
+}
+
   font-size: 3.2em;
   line-height: 1.1;
 }
