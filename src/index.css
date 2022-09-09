@@ -12,7 +12,6 @@ html {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -48,6 +47,11 @@ html {
   font-size: 2em;
 }
 
+.glow {
+  box-shadow:
+    inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff; /* right cyan */
+    border-radius: 10px;
 }
 
 .banner {
@@ -80,7 +84,7 @@ html {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #213547; 
     background-color: #ffffff;
   }
 
