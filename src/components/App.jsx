@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import ModelScene from './ModelScene';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      
+      <ModelScene />
     </div>
   )
 }
